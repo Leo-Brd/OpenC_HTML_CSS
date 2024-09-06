@@ -1,8 +1,40 @@
-
 a {
     color: black;
+    text-decoration: none;
+    font-weight: 1em;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-.word {
+.important {
+    color: #a5b4fc;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 3.5em;
+    font-style: normal;
     color: #A5B4FC;
 }
+
+
+p {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1.1em;
+  font-style: normal;
+}
+
+ul, ol {
+    font-weight: 1em;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+em {
+    font-style: normal;
+}
+
