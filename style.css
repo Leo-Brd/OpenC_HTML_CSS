@@ -1,40 +1,39 @@
+body {
+  /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: #1F2039;
+}
+
 a {
-    color: black;
-    text-decoration: none;
-    font-weight: 1em;
-    font-family: "Manrope", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
-.important {
-    color: #a5b4fc;
-}
-
-h1 {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 3.5em;
-    font-style: normal;
-    color: #A5B4FC;
-}
-
-
-p {
-  font-family: "Manrope", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 1.1em;
-  font-style: normal;
-}
-
-ul, ol {
-    font-weight: 1em;
-    font-family: "Manrope", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  text-decoration: none;
 }
 
 em {
-    font-style: normal;
+  color: #a5b4fc;
+  font-style: normal;
 }
 
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+.top-bottom {
+  background-color: white;
+  color: #242424;
+}
+
+p, ol, ul, h2 {
+  color: #F9F8FF;
+}
+
+.degrade {
+  color: white;
+  background: linear-gradient(90deg, #8E86B5, #ACAEED);
+}
