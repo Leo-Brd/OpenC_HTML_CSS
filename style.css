@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
@@ -39,8 +43,8 @@ li {
   color: #f9f8ff;
 }
 
-.entete,
-.pied-de-page {
+header,
+footer {
   background-color: white;
 }
 
@@ -69,4 +73,28 @@ a:hover {
 .carre-contenu {
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
+  padding: 50px;
+}
+
+header, footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+section {
+  padding : 80px;
+}
+
+.a-propos-contenu * {
+  margin: auto;
+}
+
+.services-title {
+  margin-top: 50px;
+}
+
+.services-list {
+  margin-top: 30px;
 }
