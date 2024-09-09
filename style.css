@@ -142,3 +142,77 @@ nav a {
   /* Même si vous ne connaissez pas cette propriété, vous en aurez besoin pour permettre aux images de respecter les dimensions de la grid CSS */
   object-fit: cover;
 }
+
+.grid-paysages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap: 15px;
+}
+
+.paysage1 {
+  grid-column: 1 / 2;
+}
+
+.paysage2 {
+  grid-column: 2 / 3;
+}
+
+.paysage3 {
+  grid-column: 3 / 4;
+}
+
+.paysage4 {
+  grid-column: 1 / 2;
+}
+
+.paysage5 {
+  grid-column: 2 / 3;
+}
+
+.paysage6 {
+  grid-column: 3 / 4;
+}
+
+.paysage7 {
+  grid-column: 1 / 2;
+}
+
+.paysage8 {
+  grid-column: 2 / 3;
+}
+
+.paysage9 {
+  grid-column: 3 / 4;
+}
+
+.grid-portraits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
+}
+
+.portrait1 {
+  grid-column: 1 / 2;
+}
+
+.portrait2 {
+  grid-column: 2 / 3;
+}
+
+.portrait3 {
+  grid-column: 3 / 4;
+}
+
+.portrait4 {
+  grid-column: 1 / 2;
+}
+
+.portrait5 {
+  grid-column: 2 / 3;
+}
+
+.portrait6 {
+  grid-column: 3 / 4;
+}
