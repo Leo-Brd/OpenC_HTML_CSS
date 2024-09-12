@@ -2,6 +2,8 @@
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
   padding: 50px;
+  width: 50%;
+  margin: auto;
   margin-bottom: 80px;
 }
 
@@ -18,29 +20,31 @@
 }
 
 .a-propos-main {
-  width: 50%;
   margin: auto;
 }
 
 table {
-  border-collapse: collapse;
   color: white;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 15px;
+  border: 1px solid #a5b4fc;
 }
 
 td {
-  border: 1px solid #8e86b5;
-  padding: 50px;
-  text-align: center;
+  padding: 80px;
 }
 
-th {
-  border: 1px solid #8e86b5;
-  padding: 20px;
-  text-align: center;
+h2 {
+  margin-bottom: 80px;
 }
 
-caption {
-  position: relative;
-  bottom: 40px;
-  font-size: large;
+h1,
+h2 {
+  text-align: center;
 }
