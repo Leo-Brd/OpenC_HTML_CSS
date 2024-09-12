@@ -21,3 +21,26 @@
   width: 50%;
   margin: auto;
 }
+
+table {
+  border-collapse: collapse;
+  color: white;
+}
+
+td {
+  border: 1px solid #8e86b5;
+  padding: 50px;
+  text-align: center;
+}
+
+th {
+  border: 1px solid #8e86b5;
+  padding: 20px;
+  text-align: center;
+}
+
+caption {
+  position: relative;
+  bottom: 40px;
+  font-size: large;
+}
