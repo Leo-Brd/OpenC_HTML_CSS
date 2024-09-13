@@ -1,1 +1,1 @@
-Base de code pour le cours HTML CSS
+Code du cours HTML/CSS d'Open Classroom
