@@ -80,3 +80,26 @@ nav {
 nav a {
   margin-left: 30px;
 }
+
+@media screen and (max-width: 996px) {
+  h1, h2 {
+    font-size: 2em;
+  }
+
+  .accueil-introduction, form {
+    max-width: 1000px;
+  }
+
+  .tarifs {
+    display: none;
+  }
+
+  .accueil-introduction , .accueil-photos div {
+    flex-direction: column-reverse;
+  }
+
+  .accueil-photos {
+    padding: 20px;
+  }
+}
+
